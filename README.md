@@ -4,4 +4,4 @@ _An interactive experience that meshes furniture placement with soundscape manip
 A terrible pun based on Eric Satie's concept of [musique d’ameublement](https://soundcloud.com/user1401258/satie-whittington-a-suite-of-furniture)._
 
 ## Miscleanous Material
-* [Process Documentation](github.com/mouseandthebillionaire/furnitureMusic/process.md)
+* [Process Documentation](github.com/mouseandthebillionaire/furnitureMusic/Process/)
