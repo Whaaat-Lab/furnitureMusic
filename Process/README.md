@@ -1,4 +1,4 @@
-# Process
+# Process Documentation
 
 ## 08.14.19
 This whole thing begins with us thinking about exploratory alternative input devices (Bearwarp's [geobio](https://vimeo.com/259809620), for example). But how can we translate the methodology behind physical exploration into pure game-control? Additionally, can this control be used to influence the overall sonic landscape of a game experience, hopefully leveraging the music to create slow and/or contemplative experiences.
