@@ -7,4 +7,4 @@ b) A terrible play on words based on Eric Satie's concept of [musique d’ameubl
 c) An excuse to explore using the MDMA (Method for Design Materialisation and Analysis) approach of documenting process from [Pippin Barr](http://www.pippinbarr.com), [Rilla Khaled](http://www.rillakhaled.com) and [Jonathan Lessard's](https://jonathanlessard.net) [Games as Research project](https://www.gamesasresearch.com)
 
 ## Miscleanous Material
-* [Process Documentation](github.com/mouseandthebillionaire/furnitureMusic/Process/)
+* [Process Documentation](./Process/)
