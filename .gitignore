@@ -10,8 +10,6 @@ BasicLivingRoom/
 library/
 temp/
 obj/
-build/
-builds/
 logs/
 bin/
 Library/
@@ -19,9 +17,6 @@ Temp/
 Obj/
 Logs/
 Bin/
-
-# Build/ - try including the build
-# Builds/
 
 # erroneous meta files 
 library.meta
