@@ -17,10 +17,11 @@ bin/
 Library/
 Temp/
 Obj/
-Build/
-Builds/
 Logs/
 Bin/
+
+# Build/ - try including the build
+# Builds/
 
 # erroneous meta files 
 library.meta
