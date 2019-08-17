@@ -8,8 +8,8 @@ Secondly, this stems from an interest in Eric Satie's notion of [Furniture Music
 This initial commit uses the [Low Poly Modular Living Room](https://assetstore.unity.com/packages/3d/environments/urban/low-poly-modular-living-room-128552) asset from Cenk Sanusoglu on the Unity Asset store. We have implemented clicking and dragging the furniture. The next stage will be to compose a soundscape for the environment.
 
 ## Initial Music Setup and Colorization Prototype - 08.17.19
-We spent a few days exploring which middleware we could use for the soundtrack. Earlier versions of this project had used Wwise, but this seems a little cumbersome for what we want to achieve here, namely musical tracks separated out and the ability to manipulate effects parameters. [Elias](https://www.eliassoftware.com) seemed like a good solution, but it's free version is fairly limiting, and doesn't seem to offer enough granular access to effects. In the end, Unity's Audio package will work for our goals. 
+We spent a few days exploring which middleware we could use for the soundtrack. Earlier versions of this project had used Wwise, but this seems a little cumbersome for what we want to achieve here, namely musical tracks separated out and the ability to manipulate effects parameters. [Elias](https://www.eliassoftware.com) seemed like a good solution, but its free version is fairly limiting, and doesn't seem to offer enough granular access to effects. In the end, Unity's Audio package will work for our goals. 
 
-![alt text](colorExploration.jpg "Color Exploration")
+![alt text](colorExploration "Color Exploration")
 
 We also began exploring the possibility of manipulating the visuals alongside the audio. This build of the project has the user increasing the tiling as they drag any piece of furniture. The results are interesting, but maybe too haphazard.
