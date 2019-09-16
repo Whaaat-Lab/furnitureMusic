@@ -13,3 +13,8 @@ We spent a few days exploring which middleware we could use for the soundtrack. 
 ![alt text](colorExploration "Color Exploration")
 
 We also began exploring the possibility of manipulating the visuals alongside the audio. This build of the project has the user increasing the tiling as they drag any piece of furniture. The results are interesting, but maybe too haphazard.
+
+## Music Implementation 1 - 09.16.19
+In this first implementation of music manipulation, we add six ambient synth tracks. Moving some furniture affects the pitch, and moving some changes the Cutoff Frequency of a High-Pass Filter. Using the built-in Unity Audio Engine proves to be interesting. We tried adding an overall distortion to the track using the Audio Distortion Filter, but it works more like an overdrive, maxing out all of the volume to an undesirable degree. There is also some ambient street noise that plays when the door opens. 
+
+With all of this, it has been great to experiment with the sounds with the room already in place. Every decision is pushed against this idea of "does it make sense for [Furniture X] to affect the sound this way?" which is a fun way to work. In the end, this feels more like a playground where we can explore ideas of how sound and movement could work. Because of this, in the future we plan on uploading playable versions of each iteration of the project for others to play with. Perhaps we will organize those here outside of the timeline?
