@@ -1,6 +1,9 @@
 # project specific files
 BasicLivingRoom/
 
+# Mouse & the Billionaire general organizational files
+projectFiles/
+
 # gitignore file from NYU Game Center
 
 # ignore git config as it will be differ across clients
