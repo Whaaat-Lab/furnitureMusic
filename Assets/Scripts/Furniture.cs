@@ -6,16 +6,24 @@ using UnityEngine;
 public class Furniture: MonoBehaviour {
     private Vector3 screenPoint;
     private Vector3 offset;
-    private Vector3 oP;
+    
+    public Vector3 oP;
+    private float overallDistanceTravelled;
     private Quaternion oR;
     
     public AudioSource ambience, chime;
-    public bool pitchController, effectController;
+
+    public int controllerNumber;
+    
+    public bool pitchController, effectController, synthController;
+
+    public static Furniture S;
 
     void Awake() {
+        
         oP = transform.localPosition;
-        oR = transform.rotation;
-
+        //oR = transform.rotation;
+        S = this;
     }    
     
     void OnMouseDown(){
@@ -28,14 +36,23 @@ public class Furniture: MonoBehaviour {
         Vector3 cursorPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
         Vector3 cursorPosition = Camera.main.ScreenToWorldPoint(cursorPoint) + offset;
         transform.localPosition = new Vector3(cursorPosition.x, cursorPosition.y, oP.z);
+        
+        // Get overall distance
+        overallDistanceTravelled = Vector3.Distance(transform.localPosition, oP);
+        
         ColorControl.S.IncreaseTilingTweak();
 
         if (pitchController) {
-            ambience.pitch = 1 + (cursorPosition.x - oP.x) / 10f;
+            ambience.pitch = 1 - (overallDistanceTravelled / 20f);
         }
 
         if (effectController) {
-            ambience.GetComponent<AudioHighPassFilter>().cutoffFrequency = 3000 - (cursorPosition.y - oP.y) * 500f;
+            ambience.GetComponent<AudioHighPassFilter>().cutoffFrequency = 3000 - (overallDistanceTravelled * 1000f);
+        }
+
+        if (synthController) {
+            OSCsender.S.UpdateSynth(controllerNumber, overallDistanceTravelled);
+            OSCsender.S.SendAudio(controllerNumber);
         }
     }
 

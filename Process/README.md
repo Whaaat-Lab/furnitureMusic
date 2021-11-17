@@ -20,3 +20,6 @@ In this first implementation of music manipulation, we add six ambient synth tra
 [Version 2 WebGL Build](https://mouseandthebillionaire.github.io/furnitureMusic/v2/)
 
 With all of this, it has been great to experiment with the sounds with the room already in place. Every decision is pushed against this idea of "does it make sense for [Furniture X] to affect the sound this way?" which is a fun way to work. In the end, this feels more like a playground where we can explore ideas of how sound and movement could work. Because of this, in the future we plan on uploading playable versions of each iteration of the project for others to play with. Perhaps we will organize those here outside of the timeline?
+
+## New Exploration - 11.17.21
+We came back to this for working on with the [ATLAS](http://atlas.colorado.edu) Game Audio class. The biggest desire here is to have a Unity playground that students can connect both a modular synthesizer and Ableton Live. The current version of the project supports this potential for musical exploration, and will be given to students so that they may make new projects with it. 
